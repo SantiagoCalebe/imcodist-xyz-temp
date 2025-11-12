@@ -299,9 +299,9 @@ css: me.css
                 <script>
                     $("#contact_button_{{ contact_social_id }}").click(function() {
                         confirmAndCopyToClipboard(
-                            `{{ social_data.copy }}`,
-                            `{{ social_data.copy_message }}`,
-                            `{{ social_data.copy_confirm_message }}`
+                            `{{ contact_data.copy }}`,
+                            `{{ contact_data.copy_message }}`,
+                            `{{ contact_data.copy_confirm_message }}`
                         );
                     });
                 </script>
