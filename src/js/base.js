@@ -14,6 +14,13 @@ function copyToClipboard(copy, message) {
     alert(message);
 }
 
+function confirmAndCopyToClipboard(copy, message, confirm_message) {
+    if (confirm_message == undefined)
+        copyToClipboard(copy, message);
+    else if (confirm(confirm_message))
+        copyToClipboard(copy, message);
+}
+
 
 $(function() {
     birthDate = new Date(birthday);

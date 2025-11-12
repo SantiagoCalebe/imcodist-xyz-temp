@@ -18,9 +18,10 @@
                     {% if social_data.copy %}
                         <script>
                             $("#socials_button_{{ social_id }}").click(function() {
-                                copyToClipboard(
-                                    "{{ social_data.copy }}",
-                                    "{{ social_data.copy_message }}"
+                                confirmAndCopyToClipboard(
+                                    `{{ social_data.copy }}`,
+                                    `{{ social_data.copy_message }}`,
+                                    `{{ social_data.copy_confirm_message }}`
                                 );
                             });
                         </script>

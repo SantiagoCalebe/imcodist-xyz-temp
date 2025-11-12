@@ -29,6 +29,7 @@
         "name": "Discord",
         "copy": "codist",
         "copy_message": "Discord username (@codist) copied to clipboard.",
+        "copy_confirm_message": "Before you recieve my Discord username...\n\nIf you add me and I don't know who you are, I'll ask why you've added me.\n\nIf your answer is one of the following:\n• \"I want to be friends / chat.\"\n• \"I want you to do volunteer work on my project.\"\n• \"I like your work.\"\n• \"No reason.\"\nI may remove you from my friends list immediately.\n\nI don't mean to be rude, and I'm sure you're great.\nHowever, I'll do anything to avoid that awkward \"Thanks, but no.\" I have to do every time.\n\nIf I know who you are, you're exempt from these rules.",
         "contact_text": "Direct<br>Messages",
         "contact_hover": "Discord Direct Messages"
     },
