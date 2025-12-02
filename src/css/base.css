@@ -10,6 +10,10 @@
 @import url("includes/me.css");
 @import url("includes/socials.css");
 
+/* Hide webkit. */
+:webkit-scrollbar {
+    display: none;
+}
 
 /* Update base tags. */
 body {
